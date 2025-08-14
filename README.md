@@ -10,7 +10,7 @@ This project aims to design and evaluate a short-term trading signal that predic
 The primary stakeholder is a proprietary trading desk operating intraday equity strategies. Quantitative researchers will design and validate the model, while traders or automated execution systems will consume the output in real time. The signal needs to integrate into an existing execution pipeline with minimal latency, and decisions must be made within milliseconds to seconds of new data arrival.
 
 ## Useful Answer & Decision  
-The desired answer is **predictive**—a statistical model producing a binary or probabilistic forecast of the next price move direction (up/down). The core evaluation metric will be directional hit ratio, complemented by trading-specific measures such as realized PnL per trade, Sharpe ratio, and drawdown. The deliverable will be an **artifact**: a deployable Python module that generates signals, accompanied by a backtest report detailing performance, assumptions, and risk factors.
+The desired answer is predictive, a statistical model producing a binary or probabilistic forecast of the next price move direction (up/down). The core evaluation metric will be directional hit ratio, complemented by trading-specific measures such as realized PnL per trade, Sharpe ratio, and drawdown. The deliverable will be an artifact: a deployable Python module that generates signals, accompanied by a backtest report detailing performance, assumptions, and risk factors.
 
 ## Assumptions & Constraints  
 - **Data Availability:** Historical limit order book data and trade data for selected equities is accessible via an API or local datasets.  
